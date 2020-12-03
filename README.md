@@ -6,9 +6,11 @@ Terraform need to installed.
 AWS configuration need to done so terraform use those credentials to perform actions.
 
 -------
-terraform init
-terraform plan
-terraform apply
+-> terraform init
+
+-> terraform plan
+
+-> terraform apply
 
 -> will get the output link -> https://URL/stage
 
