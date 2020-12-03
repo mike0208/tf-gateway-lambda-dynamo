@@ -4,7 +4,7 @@ terraform scripts for gateway-lambda-dynamo to connect.
 prerequisites - 
 Terraform need to installed.
 AWS configuration need to done so terraform use those credentials to perform actions.
-
+Please change the Account number in the role in the folders from XXXXXXXX -> <account number>
 -------
 -> terraform init
 
