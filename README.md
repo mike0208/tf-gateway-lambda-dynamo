@@ -13,8 +13,10 @@ terraform apply
 -> will get the output link -> https://URL/stage
 
 can use the curl command to check.
-curl -X POST -d '{"id":"1","name":"msg"}' https://URL/stage/writedb
-curl -X POST -d '{"id":"1","name":"msg"}' https://URL/stage/readdb
+
+-> curl -X POST -d '{"id":"1","name":"msg"}' https://URL/stage/writedb
+
+-> curl -X POST -d '{"id":"1","name":"msg"}' https://URL/stage/readdb
 
 -----------
 terraform destroy   -> for destroying the infrastructure use with caution.
