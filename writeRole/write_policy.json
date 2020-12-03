@@ -8,7 +8,7 @@
         "dynamodb:UpdateItem"
       ],
       "Effect": "Allow",
-      "Resource": "arn:aws:dynamodb:ap-south-1:834280397824:table/dynamoTable"
+      "Resource": "arn:aws:dynamodb:ap-south-1:XXXXXXXXX:table/dynamoTable"
     }
   ]
 }
